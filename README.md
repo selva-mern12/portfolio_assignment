@@ -72,6 +72,7 @@ section.visible {
 ## 🚧 How to Use
 
 1. **Clone or Download** this repo
+   github = https://github.com/selva-mern12/portfolio_assignment
 2. Ensure your directory structure matches:
 
 ```
@@ -88,10 +89,6 @@ index.html
 5. Click the 🌞 / 🌙 icon to toggle between light and dark mode.
 
 ---
-
-## 👨‍💻 Author
-
-**Anish Kumar Sinha**
 
 ---
 
