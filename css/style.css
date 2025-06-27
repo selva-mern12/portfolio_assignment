@@ -18,7 +18,9 @@ body {
   color: #ffffff;
   border-color: #ffffff;
 }
-
+[data-theme="dark"] .navbar-toggler-icon {
+  filter: brightness(1) invert(1);
+}
 
 [data-theme="light"] body,
 [data-theme="light"] .custom-navbar,
@@ -34,6 +36,10 @@ body {
   color: #000000;
   border-color: #000000;
 }
+[data-theme="light"] .navbar-toggler-icon {
+  filter: brightness(1) invert(0);
+}
+
 [data-theme="dark"] .custom-navbar .nav-link:hover,
 [data-theme="dark"] .custom-navbar .nav-link.active {
   color: #d9dada !important;
@@ -77,10 +83,6 @@ section.visible {
 .custom-navbar .nav-link,
 .custom-navbar .navbar-toggler {
   color: inherit !important;
-}
-
-.navbar-toggler-icon {
-  filter: brightness(0) invert(1);
 }
 
 /* === HERO SECTION === */
@@ -152,8 +154,8 @@ section.visible {
 
 /* === HERO IMAGE === */
 .hero-img {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   position: relative;
   padding-top: 50px;
 }
@@ -287,7 +289,8 @@ section.visible {
   .styled-anish-img {
     width: 80%;
     height: auto;
-    margin-left: 0;
+    margin-top: 18px;
+    margin-left: 32px;
   }
 
   .email {
@@ -298,6 +301,7 @@ section.visible {
     border-left: none;
     padding-left: 0;
     font-size: 0.9rem;
+    bottom: 0;
   }
 
   .social-icons {
